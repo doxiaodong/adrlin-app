@@ -1,0 +1,14 @@
+node_modules
+built
+tags
+typings
+.baseDir.ts
+.tscache
+.DS_Store
+
+app/**/*.js
+app/**/*.map
+platforms
+lib
+
+*.tgz

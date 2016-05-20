@@ -1,0 +1,12 @@
+<GridLayout rows="auto, *">
+
+  <ListView [items]="articles" row="1">
+    <template let-item="item">
+      <GridLayout columns="*, auto" (tap)="goArticleDetail(item)">
+        <Label col="0" [text]="item.title" class="text-left"></Label>
+        <Label col="1" [text]="item.createTime | xdDate"></Label>
+      </GridLayout>
+    </template>
+  </ListView>
+
+</GridLayout>

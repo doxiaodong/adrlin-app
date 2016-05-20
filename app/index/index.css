@@ -1,0 +1,8 @@
+.text-left {
+  width: 150px;
+  text-align: left;
+}
+
+GridLayout {
+  background-color: red;
+}
